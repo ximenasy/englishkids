@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English Kids, S.A.</title>
+  <style>
+    /* 🎨 Estilos basados en la apariencia del video */
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida para niños */
+      margin: 0;
+      background: #fef9f3; /* Fondo claro */
+    }
+
+    header {
+      background: #ff80ab; /* Color rosa fuerte */
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #ffd54f; /* Color amarillo/naranja de la barra del menú */
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* Estilo de los botones del menú (corregido para usar etiquetas 'a' como botones) */
+    nav a {
+      background-color: #ff4081; /* Color de botón */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none; /* Quitar subrayado */
+    }
+
+    nav a:hover {
+      background-color: #f50057; /* Cambio de color al pasar el mouse */
+    }
+
+    section {
+      /* Estilo de las secciones de contenido */
+      display: none; /* Ocultar todas las secciones por defecto */
+      padding: 20px;
+      max-width: 1000px;
+      margin: 20px auto; /* Centrar y añadir margen */
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .show {
+      display: block; /* Mostrar la sección activa */
+    }
+
+    h2 {
+      color: #ec407a; /* Color rosa/rojo para títulos de sección */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo_english_kids.jpg" alt="Logo English Kids">
+    <h1>ENGLISH KIDS, S.A.</h1>
+    <p>“Pequeños estudiantes, grandes logros, inglés fácil y divertido desde el primer día”</p>
+    <p>Nuestro logotipo es colorido y atractivo para así llamar la atención de los niños. Las figuras fueron seleccionadas cuidadosamente para reflejar nuestra profunda dedicación. Esta comunica visualmente que es divertido y agradable.</p>
+  </header>
+
+  <nav>
+    <a href="#" onclick="mostrar('descripcion')">Descripción</a>
+    <a href="#" onclick="mostrar('software')">Software</a>
+    <a href="#" onclick="mostrar('producto')">Producto</a> 
+    <a href="#" onclick="mostrar('mision_vision_valores')">Nosotros</a>
+    <a href="#" onclick="mostrar('objetivos')">Objetivos</a>
+    <a href="#" onclick="mostrar('ventajas')">Ventajas</a>
+    <a href="#" onclick="mostrar('imagenes')">Imágenes</a> 
+    <a href="#" onclick="mostrar('contacto')">Contacto</a> 
+  </nav>
+
+  <main>
+    
+    <section id="descripcion" class="show"> 
+      <h2>Descripción</h2>
+      <p><strong>Giro:</strong> Educativo</p>
+      <p><strong>Tamaño:</strong> Microempresa</p>
+      <p><strong>Origen del capital:</strong> Privada</p>
+    </section>
+
+    <section id="software">
+      <h2>Descripción del Software</h2>
+      <p><strong>¡Potencia tus habilidades de aprendizaje!</strong></p>
+      <p>¿Estás listo/a para potenciar tus habilidades de aprendizaje? Con nuestro nuevo software educativo tendrás una eficacia de aprendizaje en el inglés. Con nuestros minijuegos te divertirás al mismo tiempo que aprenderás.</p>
+      <p>Es un software diseñado para niños y niñas de primaria. El objetivo principal es darles un nuevo modelo educativo de inglés a los niños, ya que vendrán minijuegos que los entretendrán.</p>
+    </section>
+
+    <section id="producto">
+      <h2 style="color:#ec407a;">PRODUCTO FÍSICO</h2>
+      <p style="color:black;">
+        Nuestro producto físico será una *membresía* que venderemos en *tarjetas*, las cuales tendrán un código. Ese código lo tendrán que ingresar en nuestra app para poder utilizarla y aprender el inglés básico de manera eficiente y divertida.
+      </p>
+      <img src="membresia.jpg" 
+       alt="Tarjeta de acceso al software English Kids"
+       style="max-width: 300px; border-radius: 15px; display: block; margin: 20px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </section>
+    
+    <section id="mision_vision_valores">
+      <h2>Sobre Nosotros</h2>
+      
+      <h3>Misión</h3>
+      <p>Nuestra misión en English Kids es hacer más práctico y eficiente la educación, enseñanza, etc. Sobre el inglés en primaria. Con nuestro nuevo sistema de software educativo nos dedicamos a darles unas pequeñas actividades digitales para aprender el inglés básico.</p>
+      
+      <h3>Visión</h3>
+      <p>Somos un grupo de jóvenes que queremos llegar al éxito con nuestro modelo de aprendizaje “software educativo”, queremos que los niños tengan oportunidades más fáciles y eficientes para aprender el inglés básico.</p>
+      
+      <h3>Valores</h3>
+      <ul>
+        <li>*Responsabilidad:* Compromiso de cumplir con las tareas y actuar de manera ética y profesional. Esto se aplicará en casi todo lo que hagamos, por ejemplo, si hay problemas en el software…actuar de inmediato para resolverlo, si llega a haber un accidente en el área de trabajo acudir de inmediato a un hospital para recibir atención médica.</li>
+        <li>*Libertad:* Tomar decisiones y con qué actitud tomarlas, sin rebasar límites o incumplir con las normas establecidas.</li>
+        <li>*Tolerancia:* Capacidad de aceptar y respetar las diferencias individuales. Si cualquier integrante de la empresa llega a incumplir este valor será inmediatamente despedido ya que en esta empresa no se aceptarán este tipo de actitudes.</li>
+        <li>*Comunicación:* Transmitir información, ideas, instrucciones y mensajes entre los diferentes miembros y departamentos de la organización.</li>
+        <li>*Respeto:* Respetar a todos los miembros del equipo y clientes. Fomentar un ambiente de trabajo inclusivo y de igualdad.</li>
+      </ul>
+    </section>
+
+    <section id="objetivos">
+      <h2>Objetivos Generales</h2>
+      <ul>
+        <li>Crear una app para que los niños y niñas aprendan inglés básico.</li>
+        <li>Aprender de forma práctica y eficiente.</li>
+        <li>La app será divertida.</li>
+      </ul>
+      <h3>Objetivos Específicos</h3>
+      <ul>
+        <li>Desarrollar y diseñar una aplicación para niños.</li>
+        <li>Sera fácil de usar para que los niños le entiendan.</li>
+        <li>Vendran mini juegos en la app para que los niños no se aburran.</li>
+        <li>Generar interés de la app.</li>
+      </ul>
+    </section>
+
+    <section id="ventajas">
+      <h2>Ventajas Competitivas</h2>
+      <ul>
+        <li>Ofrecer un servicio muy fácil de usar.</li>
+        <li>Entretener y enseñar inglés básico al mismo tiempo.</li>
+        <li>Excelente atención a los niños y niñas.</li>
+        <li>Sumamente divertido para que no se aburran.</li>
+        <li>Esta app no tiene absolutamente ningún error.</li>
+      </ul>
+    </section>
+
+    <section id="imagenes">
+      <h2>Imágenes del Juego</h2>
+      <p>A continuación te mostramos algunas capturas de nuestros divertidos minijuegos:</p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        
+        <img src="game_screen_2.jpg" alt="Mini juego: Adivina el animal" style="max-width: 300px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        
+        <img src="game_screen_1.jpg" alt="Mini juego: Vestimenta y colores" style="max-width: 300px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        
+      </div>
+     
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>La Paz, La Magdalena Atlicpac, Calle Josefa Ortiz de Dominguez #5.</p>
+    </section>
+
+  </main>
+  
+  <footer>
+    <p>Elaborado por: English Kids</p>
+  </footer>
+
+  <script>
+    function mostrar(seccionId) {
+      // 1. Ocultar todas las secciones dentro del main
+      const secciones = document.querySelectorAll('main section');
+      secciones.forEach(sec => sec.classList.remove('show'));
+      
+      // 2. Mostrar solo la sección seleccionada
+      document.getElementById(seccionId).classList.add('show');
+    }
+    
+    // Al cargar la página, asegúrate de que solo la primera sección esté visible.
+    // Esto es útil si el usuario tiene JavaScript activado.
+    document.addEventListener('DOMContentLoaded', () => {
+        // Muestra la sección 'descripcion' por defecto al cargar
+        mostrar('descripcion');
+    });
+
+    // Para evitar el salto al hacer clic en un enlace con href="#"
+    document.querySelectorAll('nav a[href="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+        });
+    });
+  </script>
+
+</body>
+</html>
